@@ -77,13 +77,14 @@ int main(int argc, char *argv[])
         // Ask User IF They Want To Calculate Again, IF answer Equals To 1 = Yes, Otherwise 0 = No
         printf("Do You Want To Try Again?(1 = Yes / 0 = No): ");
         scanf("%d", &loop);
-        printf("--------------------------\n");
     }
     printf("\n");
     printf("--------------------------\n");
     printf("Program Terminated,Goodbye!!\n");
     printf("--------------------------\n");
     printf("\n");
+
+    exit(EXIT_SUCCESS);
 
     return 0;
 }
