@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
             printf("Result is %d\n", result);
         }
 
-        else if (ans == 2)
+        else if (ans == 3)
         {
             result = x * y;
             printf("Result is %d\n", result);
