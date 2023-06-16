@@ -29,6 +29,15 @@ int main(int argc, char *argv[])
         scanf("%d", &ans);
         printf("--------------------------\n");
 
+        // While "answer" Greater Than 4 or Less Than 1 Ask From User To Give A Valid Input
+        while (ans > 4 || ans < 1)
+        {
+            printf("Wrong Input, Please Try Again!!\n");
+            printf("What Do You Want To Do With These 2 Numbers(1 = Sum, 2 = Subtraction, 3 = Multiply, 4 = Division): ");
+            scanf("%d", &ans);
+            printf("--------------------------\n");
+        }
+
         // IF "ans" = 1 Then Do Sum
         if (ans == 1)
         {
@@ -56,7 +65,7 @@ int main(int argc, char *argv[])
         // Else Do Division
         else
         {
-            //IF x and y Are Equal With 0 Exit Program, Due To Error
+            // IF x and y Are Equal With 0 Exit Program, Due To Error
             if (x == 0 && y == 0)
             {
                 printf("\n");
@@ -67,8 +76,7 @@ int main(int argc, char *argv[])
                 exit(EXIT_FAILURE);
             }
 
-
-            //Else Output The Result
+            // Else Output The Result
             else
             {
                 division = x / y;
