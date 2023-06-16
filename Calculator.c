@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//--------------------------------Main_Function--------------------------------
+// --------------------------------Main_Function--------------------------------
 int main(int argc, char *argv[])
 {
     
