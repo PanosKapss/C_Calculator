@@ -56,6 +56,7 @@ int main(int argc, char *argv[])
         // Else Do Division
         else
         {
+            //IF x and y Are Equal With 0 Exit Program, Due To Error
             if (x == 0 && y == 0)
             {
                 printf("\n");
@@ -66,6 +67,8 @@ int main(int argc, char *argv[])
                 exit(EXIT_FAILURE);
             }
 
+
+            //Else Output The Result
             else
             {
                 division = x / y;
