@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
         else
         {
             // IF x and y Are Equal With 0 Exit Program, Due To Error
-            if (x == 0 && y == 0)
+            if (y == 0)
             {
                 printf("\n");          // Change Line
                 printf("--------------------------\n");
