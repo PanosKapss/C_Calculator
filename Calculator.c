@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
         // Else Do Division
         else
         {
-            // IF x and y Are Equal With 0 Exit Program, Due To Error
+            // IF y Is Equal With 0 Exit Program, Due To Error
             if (y == 0)
             {
                 printf("\n");          // Change Line
