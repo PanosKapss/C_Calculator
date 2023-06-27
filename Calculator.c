@@ -87,7 +87,7 @@ void calculator()
             // Else Output The Result
             else
             {
-                division = (float)x / y;               // Take x and y Value, Divide Them And Add Result To "result" Value
+                division = (float) x / y;               // Take x and y Value, Divide Them And Add Result To "result" Value
                 printf("Result Is: %.3f\n", division); // Print Result
                 printf("--------------------------\n");
             }
