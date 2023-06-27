@@ -6,7 +6,7 @@ void calculator(); // Initialize Function
 // --------------------------------Main_Function--------------------------------
 int main(int argc, char *argv[])
 {
-    calculator();
+    calculator();    // We Call The Function Here
 
     return 0;
 }
